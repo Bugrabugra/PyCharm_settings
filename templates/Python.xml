@@ -1,0 +1,25 @@
+<templateSet group="Python">
+  <template name="arcpy.Param" value="arcpy.Parameter(displayName = &quot;$displayname$&quot;,&#10;                name=&quot;$name$&quot;,&#10;                datatype=&quot;$datatype$&quot;,&#10;                parameterType=&quot;$parameterType$&quot;,&#10;                direction=&quot;$direction$$END$&quot;)" description="arcpy.Parameter" toReformat="true" toShortenFQNames="true">
+    <variable name="displayname" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="datatype" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="parameterType" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="direction" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+</templateSet>
