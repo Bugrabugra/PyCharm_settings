@@ -1,5 +1,5 @@
 <templateSet group="Python">
-  <template name="arcpy.Param" value="arcpy.Parameter(displayName = &quot;$displayname$&quot;,&#10;                name=&quot;$name$&quot;,&#10;                datatype=&quot;$datatype$&quot;,&#10;                parameterType=&quot;$parameterType$&quot;,&#10;                direction=&quot;$direction$$END$&quot;)" description="arcpy.Parameter" toReformat="true" toShortenFQNames="true">
+  <template name="arcpy.Par" value="arcpy.Parameter(displayName = &quot;$displayname$&quot;,&#10;                name=&quot;$name$&quot;,&#10;                datatype=&quot;$datatype$&quot;,&#10;                parameterType=&quot;$parameterType$&quot;,&#10;                direction=&quot;$direction$$END$&quot;)&#10;&#10;" description="arcpy.Parameter" toReformat="true" toShortenFQNames="true">
     <variable name="displayname" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="datatype" expression="" defaultValue="" alwaysStopAt="true" />
@@ -20,6 +20,12 @@
       <option name="SQL" value="false" />
       <option name="TypeScript" value="false" />
       <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="par" value="parameters[$value$].valueAsText$END$" description="parameters[0].valueAsText" toReformat="false" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
     </context>
   </template>
 </templateSet>
