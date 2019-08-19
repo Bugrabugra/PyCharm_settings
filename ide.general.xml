@@ -13,5 +13,6 @@
     <entry key="ide.balloon.shadow.size" value="0" />
     <entry key="ide.tooltip.initialDelay" value="183" />
     <entry key="documentation.show.toolbar" value="true" />
+    <entry key="debugger.watches.in.variables" value="false" />
   </component>
 </application>
