@@ -3,5 +3,6 @@
     <option name="showWelcomeNotification" value="false" />
     <option name="showPopularPatterns" value="true" />
     <option name="showKwargs" value="true" />
+    <option name="useNewCompletions" value="false" />
   </component>
 </application>
