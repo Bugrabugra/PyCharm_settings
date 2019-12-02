@@ -28,4 +28,10 @@
       <option name="Python" value="true" />
     </context>
   </template>
+  <template name="pri" value="print($value$)&#10;$END$" description="easy Print" toReformat="false" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
 </templateSet>
