@@ -80,4 +80,10 @@
       <option name="HTML_TEXT" value="true" />
     </context>
   </template>
+  <template name="else" value="{% else %}&#10;$END$" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="Django" value="true" />
+      <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
 </templateSet>
