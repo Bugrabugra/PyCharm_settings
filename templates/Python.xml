@@ -42,4 +42,20 @@
       <option name="Python" value="true" />
     </context>
   </template>
+  <template name="def" value="def $VALUE1$($VALUE2$):&#10;    $END$ " toReformat="false" toShortenFQNames="true">
+    <variable name="VALUE1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+      <option name="Python_Class" value="false" />
+    </context>
+  </template>
+  <template name="cla" value="class $VALUE1$$VALUE2$:&#10;    $END$" toReformat="false" toShortenFQNames="true">
+    <variable name="VALUE1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+      <option name="Python_Class" value="false" />
+    </context>
+  </template>
 </templateSet>
