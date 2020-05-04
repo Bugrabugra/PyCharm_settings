@@ -58,4 +58,14 @@
       <option name="Python_Class" value="false" />
     </context>
   </template>
+  <template name="temp" value="class $CLASS_NAME$(TemplateView):&#10;    template_name = &quot;$HTML_FILE$&quot;&#10;&#10;    def get_context_data(self, **kwargs):&#10;        context = super($CLASS_NAME$, self).get_context_data(**kwargs)&#10;        context[&quot;$CONTEXT_NAME$&quot;] = $CONTEXT$&#10;        return context&#10;$END$" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HTML_FILE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONTEXT_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONTEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+      <option name="Python_Class" value="false" />
+    </context>
+  </template>
 </templateSet>
