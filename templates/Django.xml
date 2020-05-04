@@ -67,20 +67,20 @@
       <option name="HTML_TEXT" value="true" />
     </context>
   </template>
-  <template name="ext" value="{% extends $VALUE$ %}&#10;$END$" toReformat="false" toShortenFQNames="true">
+  <template name="ext" value="{% extends $VALUE$ %}&#10;$END$" description="" toReformat="false" toShortenFQNames="true">
     <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Django" value="true" />
       <option name="HTML_TEXT" value="true" />
     </context>
   </template>
-  <template name="csrf" value="{% csrf_token %}&#10;$END$" toReformat="true" toShortenFQNames="true">
+  <template name="csrf" value="{% csrf_token %}&#10;$END$" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="Django" value="true" />
       <option name="HTML_TEXT" value="true" />
     </context>
   </template>
-  <template name="else" value="{% else %}&#10;$END$" toReformat="true" toShortenFQNames="true">
+  <template name="else" value="{% else %}&#10;$END$" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="Django" value="true" />
       <option name="HTML_TEXT" value="true" />
