@@ -12,4 +12,9 @@
       <option name="HTML" value="true" />
     </context>
   </template>
+  <template name="jumbo" value="&lt;div class=&quot;jumbotron&quot;&gt;&#10;    $END$&#10;&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
 </templateSet>
