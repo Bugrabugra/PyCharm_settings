@@ -12,7 +12,7 @@
       <option name="HTML_TEXT" value="true" />
     </context>
   </template>
-  <template name="block" value="{% block $BLOCK$ %}&#10;  $END$&#10;{% endblock %}" description="{% block %} / {% endblock %}" toReformat="false" toShortenFQNames="true">
+  <template name="block" value="{% block $BLOCK$ %}&#10;  $END$&#10;{% endblock $BLOCK$ %}" description="{% block %} / {% endblock %}" toReformat="false" toShortenFQNames="true">
     <variable name="BLOCK" expression="djangoBlock()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
