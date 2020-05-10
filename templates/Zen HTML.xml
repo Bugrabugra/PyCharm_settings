@@ -17,4 +17,10 @@
       <option name="HTML" value="true" />
     </context>
   </template>
+  <template name="divc" value="&lt;div class=&quot;$CLASS$&quot;&gt;&#10;  $END$&#10;&lt;/div&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
 </templateSet>
