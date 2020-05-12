@@ -12,9 +12,10 @@
       <option name="HTML_TEXT" value="true" />
     </context>
   </template>
-  <template name="block" value="{% block $BLOCK$ %}&#10;  $END$&#10;{% endblock $BLOCK$ %}" description="{% block %} / {% endblock %}" toReformat="false" toShortenFQNames="true">
+  <template name="blo" value="{% block $BLOCK$ %}&#10;  $END$&#10;{% endblock $BLOCK$ %}" description="{% block %} / {% endblock %}" toReformat="false" toShortenFQNames="true">
     <variable name="BLOCK" expression="djangoBlock()" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="Django" value="true" />
       <option name="HTML_TEXT" value="true" />
     </context>
   </template>
@@ -67,7 +68,7 @@
       <option name="HTML_TEXT" value="true" />
     </context>
   </template>
-  <template name="ext" value="{% extends $VALUE$ %}&#10;$END$" description="" toReformat="false" toShortenFQNames="true">
+  <template name="ext" value="{% extends &quot;$VALUE$&quot; %}&#10;$END$" description="" toReformat="false" toShortenFQNames="true">
     <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Django" value="true" />
@@ -84,6 +85,12 @@
     <context>
       <option name="Django" value="true" />
       <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="inc" value="{% include &quot;$LINK$&quot; %}&#10;$END$" toReformat="false" toShortenFQNames="true">
+    <variable name="LINK" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Django" value="true" />
     </context>
   </template>
 </templateSet>
