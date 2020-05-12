@@ -58,7 +58,7 @@
       <option name="Python_Class" value="false" />
     </context>
   </template>
-  <template name="pat" value="path(route=$VAR1$, view=$VAR2$, name=$VAR3$),&#10;$END$" description="" toReformat="true" toShortenFQNames="true">
+  <template name="pat" value="path(route=&quot;$VAR1$&quot;, view=$VAR2$, name=&quot;$VAR3$&quot;),&#10;$END$" description="" toReformat="true" toShortenFQNames="true">
     <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR3" expression="" defaultValue="" alwaysStopAt="true" />
