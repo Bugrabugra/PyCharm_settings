@@ -87,7 +87,7 @@
       <option name="HTML_TEXT" value="true" />
     </context>
   </template>
-  <template name="inc" value="{% include &quot;$LINK$&quot; %}&#10;$END$" toReformat="false" toShortenFQNames="true">
+  <template name="inc" value="{% include &quot;$LINK$&quot; %}&#10;$END$" description="" toReformat="false" toShortenFQNames="true">
     <variable name="LINK" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Django" value="true" />
