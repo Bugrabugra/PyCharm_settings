@@ -5,6 +5,10 @@
       <option name="TAB_SIZE" value="2" />
     </value>
   </option>
+  <CsvCodeStyleSettings>
+    <option name="TRIM_LEADING_WHITE_SPACES" value="true" />
+    <option name="LEADING_WHITE_SPACES" value="true" />
+  </CsvCodeStyleSettings>
   <Python>
     <option name="DICT_ALIGNMENT" value="2" />
     <option name="OPTIMIZE_IMPORTS_SORT_NAMES_IN_FROM_IMPORTS" value="true" />
