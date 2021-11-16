@@ -14,9 +14,7 @@
       <mapping pattern="six" type="PLAIN_TEXT" />
       <mapping pattern="one" type="PLAIN_TEXT" />
       <mapping ext="pyt" type="Python" />
-      <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
       <removed_mapping ext="djt" approved="true" type="HTML" />
-      <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
       <removed_mapping pattern=".djt" approved="true" type="HTML" />
     </extensionMap>
   </component>
