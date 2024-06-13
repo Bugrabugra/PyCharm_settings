@@ -1,0 +1,5 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <option id="python.show.hints.for.non-literal.arguments" value="true" />
+  </component>
+</application>
