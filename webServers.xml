@@ -1,0 +1,15 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="163c6b4b-1b8a-4046-af86-a03aef57098b" name="bugra@192.168.1.100:22 password">
+        <fileTransfer accessType="SFTP" host="192.168.1.104" port="22" sshConfigId="358f061a-779c-42cb-b120-5c2c55cc7fd2" sshConfig="bugra@192.168.1.104:22 password" />
+      </webServer>
+      <webServer id="822f27c3-0d27-4b63-9e24-8da6acff3704" name="bugra@192.168.1.100:22 password (2)">
+        <fileTransfer accessType="SFTP" host="192.168.1.104" port="22" sshConfigId="358f061a-779c-42cb-b120-5c2c55cc7fd2" sshConfig="bugra@192.168.1.104:22 password" />
+      </webServer>
+      <webServer id="22290e56-57be-461e-ba1a-0c7888ef075e" name="bugra@192.168.1.104:22 password">
+        <fileTransfer accessType="SFTP" host="192.168.1.104" port="22" sshConfigId="358f061a-779c-42cb-b120-5c2c55cc7fd2" sshConfig="bugra@192.168.1.104:22 password" />
+      </webServer>
+    </option>
+  </component>
+</application>
