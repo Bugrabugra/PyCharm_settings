@@ -1285,11 +1285,11 @@
       <roots>
         <classPath>
           <root type="composite">
-            <root url="file://$USER_HOME$/Library/Caches/JetBrains/PyCharm2024.1/remote_sources/1404380683/1952936619" type="simple" />
-            <root url="file://$USER_HOME$/Library/Caches/JetBrains/PyCharm2024.1/remote_sources/1404380683/-1409565133" type="simple" />
-            <root url="file://$USER_HOME$/Library/Caches/JetBrains/PyCharm2024.1/remote_sources/1404380683/-1771821708" type="simple" />
-            <root url="file://$USER_HOME$/Library/Caches/JetBrains/PyCharm2024.1/remote_sources/1404380683/-1171821208" type="simple" />
-            <root url="file://$USER_HOME$/Library/Caches/JetBrains/PyCharm2024.1/remote_sources/1404380683/-1969769264" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/JetBrains/PyCharm2024.1/remote_sources/165227023/1952936619" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/JetBrains/PyCharm2024.1/remote_sources/165227023/-1409565133" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/JetBrains/PyCharm2024.1/remote_sources/165227023/-1771821708" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/JetBrains/PyCharm2024.1/remote_sources/165227023/-1171821208" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/JetBrains/PyCharm2024.1/remote_sources/165227023/-1969769264" type="simple" />
             <root url="file://$USER_HOME$/Library/Caches/JetBrains/PyCharm2024.1/python_stubs/-2066100795" type="simple" />
             <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/python-skeletons" type="simple" />
             <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stdlib" type="simple" />
@@ -1447,24 +1447,24 @@
           <root type="composite" />
         </sourcePath>
       </roots>
-      <additional SDK_UUID="04b19f12-5a36-4b21-9847-8f1af3cccf22" INTERPRETER_PATH="/usr/bin/python3" HELPERS_PATH="" VALID="true" RUN_AS_ROOT_VIA_SUDO="true">
+      <additional SDK_UUID="fc14ecae-aa41-4bed-9b4c-a6bca5dee582" INTERPRETER_PATH="/usr/bin/python3" HELPERS_PATH="" VALID="true" RUN_AS_ROOT_VIA_SUDO="false">
         <setting name="FLAVOR_ID" value="VirtualEnvSdkFlavor" />
         <setting name="FLAVOR_DATA" value="{}" />
         <PathMappingSettings>
           <option name="pathMappings">
             <list>
-              <mapping local-root="$USER_HOME$/Library/Caches/JetBrains/PyCharm2024.1/remote_sources/1404380683/1952936619" remote-root="/usr/lib/python3.11" />
-              <mapping local-root="$USER_HOME$/Library/Caches/JetBrains/PyCharm2024.1/remote_sources/1404380683/-1409565133" remote-root="/usr/lib/python3.11/lib-dynload" />
-              <mapping local-root="$USER_HOME$/Library/Caches/JetBrains/PyCharm2024.1/remote_sources/1404380683/-1771821708" remote-root="/usr/local/lib/python3.11/dist-packages" />
-              <mapping local-root="$USER_HOME$/Library/Caches/JetBrains/PyCharm2024.1/remote_sources/1404380683/-1171821208" remote-root="/usr/lib/python3/dist-packages" />
-              <mapping local-root="$USER_HOME$/Library/Caches/JetBrains/PyCharm2024.1/remote_sources/1404380683/-1969769264" remote-root="/usr/lib/python3.11/dist-packages" />
+              <mapping local-root="$USER_HOME$/Library/Caches/JetBrains/PyCharm2024.1/remote_sources/165227023/1952936619" remote-root="/usr/lib/python3.11" />
+              <mapping local-root="$USER_HOME$/Library/Caches/JetBrains/PyCharm2024.1/remote_sources/165227023/-1409565133" remote-root="/usr/lib/python3.11/lib-dynload" />
+              <mapping local-root="$USER_HOME$/Library/Caches/JetBrains/PyCharm2024.1/remote_sources/165227023/-1771821708" remote-root="/usr/local/lib/python3.11/dist-packages" />
+              <mapping local-root="$USER_HOME$/Library/Caches/JetBrains/PyCharm2024.1/remote_sources/165227023/-1171821208" remote-root="/usr/lib/python3/dist-packages" />
+              <mapping local-root="$USER_HOME$/Library/Caches/JetBrains/PyCharm2024.1/remote_sources/165227023/-1969769264" remote-root="/usr/lib/python3.11/dist-packages" />
             </list>
           </option>
         </PathMappingSettings>
         <targetEnvironmentConfiguration name="bugra@192.168.1.104:22" type="ssh/web-deployment">
           <config>
             <option name="projectRootOnTarget" value="/home/bugra/remote-development" />
-            <option name="webServerConfigId" value="231854e0-323f-47b9-a8ae-b0a9ff937317" />
+            <option name="webServerConfigId" value="1453e896-f746-4d55-9044-1974a4e59b0b" />
           </config>
         </targetEnvironmentConfiguration>
       </additional>
