@@ -17,6 +17,9 @@
       <webServer id="1453e896-f746-4d55-9044-1974a4e59b0b" name="bugra@192.168.1.104:22 password (3)">
         <fileTransfer accessType="SFTP" host="192.168.1.104" port="22" sshConfigId="358f061a-779c-42cb-b120-5c2c55cc7fd2" sshConfig="bugra@192.168.1.104:22 password" />
       </webServer>
+      <webServer id="4f7313ba-95ba-4019-83df-16e1c17fce0b" name="bugra@192.168.1.104:22 password (4)">
+        <fileTransfer accessType="SFTP" host="192.168.1.104" port="22" sshConfigId="358f061a-779c-42cb-b120-5c2c55cc7fd2" sshConfig="bugra@192.168.1.104:22 password" />
+      </webServer>
     </option>
   </component>
 </application>
